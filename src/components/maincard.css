@@ -1,0 +1,78 @@
+body{
+   background-color: rgb(153, 156, 152);
+    background-repeat: no-repeat;
+}
+
+.maincard{
+    display: flex;
+    margin: 10px;
+}
+.maincard1{
+    flex-basis: 30%;
+}
+/* .card2{
+    display: flex;
+    flex-direction: column;
+} */
+.card2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:0.8rem;
+}
+.maincard2{
+    flex-basis: 70%;
+    display: flex;
+   flex-wrap: wrap;
+   position: relative;
+   left: 100px;
+}
+.search{
+    position: relative;
+    top: 3px;
+    left: 40px;
+    width: 100%;
+}
+.search input{
+    width: 100%;
+    display: block;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 8px 8px 8px;
+}
+.LASTCARD{
+    position: relative;
+    left: 170px;
+}
+.searchimg{
+    position: relative;
+    top: 29px;
+    color: black;
+}
+button{
+    display: inline-block;
+    background-color: teal;
+    color: white;
+    padding: 7px 27px;
+    margin: 24px 0;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.5s;
+    margin-top: 18px;
+    border:none
+}
+.todaycard{
+    
+   position: relative;
+   left: 40px;
+   top: 30px;
+
+}
+.textbox{
+    border:none;
+    outline: none;
+}
+.yasshu .other-details-values{
+    border: 2px red !important;
+}
